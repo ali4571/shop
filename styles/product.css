@@ -1,0 +1,248 @@
+
+
+.div1{
+    position: relative;
+    display: flexbox;
+    background-color: rgba(208, 208, 208, 0.959);
+    width: 1000px;
+    height: 1100px;
+    left: 200px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
+
+
+
+
+.product-image{
+    top: 100px;
+    left: 300px;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+.checkOut{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(3, 7, 7);
+    width: 450px;
+    height:50px;
+    top: 1000px;
+    left: 520px;
+    border: none;
+    border-radius: 8px;
+}
+.checkOut:hover{
+    font-size: 20px;
+    color: rgb(3, 7, 7);
+    background-color: #e74d06;
+    transition: .5s;
+    width: 450px;
+    height:50px;
+    top: 998px;
+    left: 520px;
+    border: none;
+    border-radius: 8px;
+}
+
+.add-to-cart{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(3, 7, 7);
+    width: 450px;
+    height:50px;
+    top: 1000px;
+    left: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.add-to-cart:hover{
+    font-size: 20px;
+    color: rgb(3, 7, 7);
+    background-color: #e74d06;
+    transition: .5s;
+    width: 450px;
+    height:50px;
+    top: 998px;
+    left: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.product-description{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    width: 500px;
+    left: 250px;
+    top: 550px;
+}
+.product-price{
+    position: relative;
+    font-size: 50px;
+    top: 820px;
+    left: 44%;
+}
+.product-title{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    top: 550px;
+}
+.shopping{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+.back-button{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(3, 7, 7);
+    width: 200px;
+    height:30px;
+    top: 50px;
+    left: 75%;
+    border: none;
+    border-radius: 8px;
+}
+
+.close{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(3, 7, 7);
+    width: 200px;
+    height:30px;
+    top: 50px;
+    left: 5%;
+    border: none;
+    border-radius: 8px;
+}
+
+@media(max-width:923px){
+    .div1{
+        position: relative;
+        display: flexbox;
+        background-color: rgba(208, 208, 208, 0.959);
+        width: 400px;
+        height: 600px;
+        left: 200px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgb(0, 0, 0);
+    }
+    
+    
+    
+    
+    .product-image{
+        top: 100px;
+        left: 100px;
+        position: absolute;
+        width: 200px;
+        height: 250px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    }
+    .checkOut{
+        position: relative;
+        font-size: 15px;
+        color: rgb(3, 7, 7);
+        width: 180px;
+        height:35px;
+        top: 330px;
+        left: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+    .checkOut:hover{
+        font-size: 15px;
+        color: rgb(3, 7, 7);
+        background-color: #e74d06;
+        transition: .5s;
+        width:180px;
+        height:35px;
+        top: 330px;
+        left: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    .add-to-cart{
+        position: relative;
+        font-size: 15px;
+        color: rgb(3, 7, 7);
+        width: 180px;
+        height:35px;
+        top: 330px;
+        left: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+    .add-to-cart:hover{
+        font-size: 15px;
+        color: rgb(3, 7, 7);
+        background-color: #e74d06;
+        transition: .5s;
+        width:180px;
+        height:35px;
+        top: 330px;
+        left: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    .product-description{
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        width: 300px;
+        left: 60px;
+        top: 260px;
+    }
+    .product-price{
+        position: relative;
+        font-size: 25px;
+        top: 410px;
+        left: 44%;
+    }
+    .product-title{
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+        top: 300px;
+    }
+    .shopping{
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        top: 45px;
+    }
+    
+    .back-button{
+        position: absolute;
+        font-size: 15px;
+        color: rgb(3, 7, 7);
+        width: 180px;
+        height:35px;
+        top: 10px;
+        left: 210px;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    .close{
+        position:absolute;
+        font-size: 15px;
+        color: rgb(3, 7, 7);
+        width: 180px;
+        height:35px;
+        top: 10px;
+        left: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+}
